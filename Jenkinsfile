@@ -3,7 +3,7 @@ agent any
 stages {
     stage('Build') {
         steps {
-            sh 'g++ -o PES2UG20CS053-1 hello.cpp'
+            sh 'g++ -o PES2UG20CS053-1 hello1.cpp'
         }
     }
     
@@ -13,12 +13,12 @@ stages {
         }
     }
     
-   /* stage('Deploy') {
+    stage('Deploy') {
         steps {
             // deployment code
             echo 'Deployment Successful!'
         }
-    }*/
+    }
 }
 
 post {
