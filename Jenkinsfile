@@ -13,12 +13,12 @@ stages {
         }
     }
     
-    stage('Deploy') {
+   /* stage('Deploy') {
         steps {
             // deployment code
             echo 'Deployment Successful!'
         }
-    }
+    }*/
 }
 
 post {
